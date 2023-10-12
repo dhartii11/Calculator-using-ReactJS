@@ -1,0 +1,30 @@
+
+.result-screen {
+    height: 19vh;
+    font-size: 8rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: var(--color-white);
+  }
+  
+  
+  .computation-screen {
+    height: 6vh;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: var(--color-white);
+  }
+  
+  .screen {
+    margin-top: 10px;
+    height: 25vh;
+    width: 100%;
+    padding: 0 2rem;
+    overflow: hidden;
+    white-space: no-wrap;
+    background-color: var(--color-purple);
+  }
