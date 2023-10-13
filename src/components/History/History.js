@@ -1,17 +1,18 @@
 import React from 'react';
 import '../../styles/history.css';
 
-const HistoryPanel = ({ history, clearHistory, historyButtonState }) => {
+const HistoryPanel = ({ history, clearHistory }) => {
   return (
     <div className="history-panel">
       <div className="history-heading">
         <h1>History</h1>
 
-        {historyButtonState && (
+{/* conditional rendering statement */}
+        {/* {historyButtonState && ( */}
           <button className="history-button" onClick={clearHistory}>
             Clear
           </button>
-        )}
+        {/* )} */}
       </div>
 
       <div className="history-wrapper">
